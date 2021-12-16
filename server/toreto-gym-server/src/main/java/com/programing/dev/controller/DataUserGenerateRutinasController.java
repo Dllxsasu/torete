@@ -23,7 +23,7 @@ public class DataUserGenerateRutinasController {
 	  //el Uri
     @PostMapping("generador")	 //el requesBody valida que este completo y el @valida que este bien xd
     
-    public String rutina(@RequestBody  DataUserGenerateRutinas data) {
+ /*   public String rutina(@RequestBody  DataUserGenerateRutinas data) {
     	DenseInstance dataUser = new DenseInstance(3, new double[] {
 				data.getGenero(),
 				data.getNivel(),
@@ -32,7 +32,7 @@ public class DataUserGenerateRutinasController {
 		});
     	//locos(dataUser);
     	return locos(dataUser);
-    }
+    }*/
     
     public static String locos(DenseInstance data) {
 		try {
