@@ -1,0 +1,10 @@
+.title-container label{
+    color: rgb(31, 31, 31);
+    font-size: 17px;
+    text-align: center;
+    display: flex;
+    justify-content: left;
+    margin-left: 60px;
+    align-items: center;
+    font-weight: bold;
+}
