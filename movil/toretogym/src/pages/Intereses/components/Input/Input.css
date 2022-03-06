@@ -1,0 +1,10 @@
+.regular-style {
+    padding: 13px;
+    margin-bottom: 17px;
+    border-radius: 1px;
+    width: 270px;
+    border: 0;
+    background: #f8f5f5c2;
+    outline: none;
+    border-bottom: 1px solid #181c20;
+}

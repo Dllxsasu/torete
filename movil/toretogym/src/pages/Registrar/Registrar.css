@@ -1,0 +1,33 @@
+.form-group {
+    width: 290px;
+    height: 40px;
+    padding: 1rem;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:60vh;
+}
+
+.container-title {
+    margin: 8px;
+    width: 100%;
+    align-items: center;
+    height: 50px;
+    margin-top: 40px;
+}
+
+.button-login {
+    width: 285px;
+    height: 45px;
+    border-radius: 10px;
+    margin-top: 35px;
+    background: #a09016d7;
+    border: 0;
+    font-family: Arial-Bold;
+    font-size: 15px;
+    color: #fff;
+}
