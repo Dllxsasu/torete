@@ -13,13 +13,13 @@ const SignScreen = () => {
 const styles = StyleSheet.create({
     root :{
         alignItems: 'center',
-        padding: 1,
+        justifyContent: 'center',
     },
     logo: {
         width: '100%',
         maxWidth: 450,
-        marginTop: 35,
-        height: 600,
+        height: 500,
+        marginTop: 50,
     }
 });
 

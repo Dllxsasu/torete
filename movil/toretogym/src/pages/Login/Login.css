@@ -3,4 +3,37 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height:65vh;
+}
+
+.container-title {
+    margin: 5px;
+    width: 100%;
+    align-items: center;
+    height: 70px;
+    margin-top: 100px;
+}
+
+.button-login {
+    width: 285px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background: #cfbb21fd;
+    border: 6px solid #cfbb21fd;
+    font-family: Arial-Bold;
+    font-size: 15px;
+    color: #fff;
+}
+
+.button-login-cuenta {
+    width: 285px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background: #f8f5f5c2;
+    border: 6px solid #f8f5f5c2;
+    font-family: Arial-Bold;
+    font-size: 15px;
+    color: rgb(51, 87, 204);
 }

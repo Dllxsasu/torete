@@ -29,31 +29,33 @@ const Login = () => {
 
     return (
         <div className="login-container">
-            <Title text='Soy un títullo'/>
-            <Label text='Usuario'/>
+            <div className="container-title">
+                <Title text='Bienvenido'/>
+            </div>
             <Input 
                 attribute={{
                     id: 'usuario',
                     name: 'usuario',
                     type: 'text',
-                    placeholder: 'Ingrese Usuario'
+                    placeholder: 'Usuario'
                 }}
                 handleChange={handleChange}
             />
-            <Label text='Contraseña'/>
             <Input 
                 attribute={{
                     id: 'contraseña',
                     name: 'contraseña',
                     type: 'password',
-                    placeholder: 'Ingrese Contraseña'
+                    placeholder: 'Contraseña'
                 }}
                 handleChange={handleChange}
             />
-            <button onClick={ handleSubmit }>
-                Ingresar
+            <button className="button-login" onClick={ handleSubmit }>
+                ACCEDER
             </button>
-           
+            <button className="button-login-cuenta" onClick={ handleSubmit }>
+                CREAR NUEVA CUENTA
+            </button>
         </div>
     )  
 };
