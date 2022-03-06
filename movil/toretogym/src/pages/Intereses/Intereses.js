@@ -6,38 +6,32 @@ import Input from "./components/Input/Input";
 
 const Intereses = () => {
 
-    const [nombre, setNombre] = useState('');
-    const [apellido, setApellido] = useState('');
-    const [user, setUser] = useState('');
-    const [password, setPassword] = useState('');
+    const [objetivo, setObjetivo] = useState('');
+    const [nivel, setNivel] = useState('');
+    const [dias, setDias] = useState('');
     
-
     function handleChange(name, value) {
-        if(name === "usuario"){
+        if(name === "objetivo"){
             setUser(value)
         }
-        if(name === "contra"){
-            setPassword(value)
+        if(name === "nivel"){
+            setNivel(value)
         }
-        if(name === "name"){
-            setNombre(value)
-        }
-        if(name === "apellidos"){
-            setApellido(value)
+        if(name === "dias"){
+            setDias(value)
         }
     };
 
     function handleSubmit() {
-        let account = { nombre, apellido, user, password }
+        let account = { objetivo, nivel, dias }
         if(account){
             console.log('account ', account)
         }
     }
 
-    console.log('nombres', nombre);
-    console.log('apellidos', apellido);
-    console.log('usuario', user);
-    console.log('password', password);
+    console.log('Objetivo', objetivo);
+    console.log('Nivel', nivel);
+    console.log('Dias disponibles', dias);
 
     return (
         <div className="login-container">
@@ -48,10 +42,10 @@ const Intereses = () => {
                 <Label text='Objetivo'/>
                 <select name="objetivo" className="select-container">
                     <option value="0" selected> </option>
-                    <option value="1">Bajar Peso</option>
-                    <option value="2">Tonificar cuerpo</option>
+                    <option value="1">Perder Grasa</option>
+                    <option value="2">Tonificar</option>
                     <option value="3">Ganar masa muscular</option>
-                    <option value="4">Otro</option>
+                    <option value="4">Bajar Peso</option>
                 </select>
             </div>
             <div className="form-group">
@@ -60,7 +54,7 @@ const Intereses = () => {
                     <option value="0" selected> </option>
                     <option value="1">Principiante</option>
                     <option value="2">Medio</option>
-                    <option value="3">Profesinal</option>
+                    <option value="3">Alto</option>
                 </select>
             </div>
             <div className="form-group">
